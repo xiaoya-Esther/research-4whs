@@ -1,0 +1,43 @@
+server_address="106.15.200.87"#跳板机地址
+server_port=22#跳板机端口
+server_user_name="*"#跳板机用户名
+server_user_password="*"#跳板机密码
+remote_address="cc-uf6s6ckq946aiv4jy.ads.rds.aliyuncs.com"#远程数据库服务器地址
+remote_port=3306#远程数据库服务器端口
+remote_user_name='*'#远程数据库服务器用户名
+remote_user_passward='*'#远程数据库服务器密码
+database='github_log'#远程数据库名字
+repos=[
+    {
+        "id":45717250,
+        "name":"tensorflow/tensorflow"
+    },
+    {
+        "id":11730342,
+        "name":"vuejs/vue"
+    },
+    {
+        "id":41881900,
+        "name":"microsoft/vscode"
+    },
+    {
+        "id":41986369,
+        "name":"pingcap/tidb"
+    },
+    {
+        "id":45721011,
+        "name":"apache/skywalking"
+    },
+    {
+        "id":288431943,
+        "name":"X-lab2017/github-analysis-report"
+    },
+    {
+        "id":288431943,
+        "name":"X-lab2017/github-analysis-report"
+    },
+    {
+        "id":102535117,
+        "name":"chaoss/metrics"
+    },
+]
